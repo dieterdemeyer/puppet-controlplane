@@ -1,21 +1,16 @@
-# Template Puppet Module for Boxen
+# ControlPlane Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Install [ControlPlane](http://www.controlplaneapp.com/), a tool that allows you to build configuration profiles, contexts in ControlPlane lingo, for your Mac based on where you are or what you are doing.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include controlplane
 ```
 
 ## Required Puppet Modules
 
 * `boxen`
-* `anything-else`
 
 ## Development
 
