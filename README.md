@@ -1,4 +1,4 @@
-# ControlPlane Puppet Module for Boxen
+# ControlPlane Puppet Module for Boxen [![Build Status](https://travis-ci.org/dieterdemeyer/puppet-controlplane.png)](https://travis-ci.org/dieterdemeyer/puppet-controlplane)
 
 Install [ControlPlane](http://www.controlplaneapp.com/), a tool that allows you to build configuration profiles, contexts in ControlPlane lingo, for your Mac based on where you are or what you are doing.
 
@@ -14,8 +14,5 @@ include controlplane
 
 ## Development
 
-Write code. Run one of the following tasks to test it:
-* `rake syntax`
-* `rake style`
-* `rake spec`
-* `rake build`
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
